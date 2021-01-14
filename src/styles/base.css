@@ -1,0 +1,51 @@
+body,
+div,
+span,
+p,
+a,
+input,
+img,
+ul,
+li,
+strong,
+em,
+del,
+ins,
+h1,
+h2,
+h3,
+h4,
+i {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+i {
+  font-style: normal;
+}
+body {
+  background-color:#F5F7F9;
+}
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+.w {
+  width: 1200px;
+}
