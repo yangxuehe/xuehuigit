@@ -7,7 +7,11 @@ function apiGet(){
         url:"/sys/captcha"
     })
 }
-
+function apiPost(){
+    return http({
+        url:"/sys/captcha"
+    })
+}
 export {
     apiGet
 }

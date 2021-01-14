@@ -11,7 +11,7 @@
 import axios from 'axios'
 
 let instance = axios.create({
-  baseURL: "http://samoyed-mall.cezhiqiu.cn",
+  //baseURL: "http://samoyed-mall.cezhiqiu.cn",
   transformResponse: [function (data) {
       return JSON.parse(data);
   }]
