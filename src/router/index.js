@@ -16,6 +16,10 @@ export default new VueRouter({
             path: "/login",
             component: () => import('@/views/login'),
         },
+		{
+            path: "/new_test",
+            component: () => import('@/views/login'),
+        },
         {
             // 客服组件路由
             path: "/serveice",
@@ -165,11 +169,6 @@ export default new VueRouter({
                 // 消息管理-官网信件发送-信件编辑
                 path: '/messages/letterSend/letterEdit',
                 component: () => import('@/views/messages/letterSend/letterEdit'),
-            },
-            {
-                // 消息管理-官网信件发送-自动发送模版
-                path: '/messages/letterSend/autoSend',
-                component: () => import('@/views/messages/letterSend/autoSend'),
             },
             ]
         },
